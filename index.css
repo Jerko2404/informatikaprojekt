@@ -57,7 +57,7 @@ img {
 }
 .container {
     font-size: 24px;
-    padding: 2px 16px 4px 16px;
+    padding: 2px 16px 15px 16px;
   }
 .lbutton {
 	background-color:white;
@@ -83,3 +83,20 @@ img {
 main li{
     display: inline;
 }
+
+.pomoc {
+    z-index: -1;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #000000;
+    align-content: center;
+  }
